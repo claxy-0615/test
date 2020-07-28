@@ -1,9 +1,13 @@
 spring:
   profiles:
-    active: prod
+    active: test
 ---
 spring:
-  profiles: prod
+  profiles: test
+  application:
+    name: springcloud-test
 ---
 spring:
   profiles: dev
+  application:
+    name: springcloud-dev
